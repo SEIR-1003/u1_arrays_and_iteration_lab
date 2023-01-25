@@ -36,6 +36,24 @@
 // let yourName = "Jason Bundy";
 // console.log(`Hello, my name is ${yourName}`);
 
+// SECTION 4
+// 1. <
+// 2. <
+// 3. ===
+// 4. < >
+// 5. = <
+// 6. ===
+// 7. ==
+// 8. !=
+
+//SECTION 5
+// let animal = "cat";
+// if (animal === "cow") {
+//   console.log("mooooo");
+// } else {
+//   console.log("Hey! You're not a cow");
+// }
+
 // SECTION 6
 // let age = 1;
 // if (age > 16) {
@@ -101,20 +119,3 @@
 //     console.log(i);
 //   }
 // }
-
-// SECTION 12
-// Used the following link for parts of the exercise:
-// https://stackoverflow.com/questions/7944239/generating-fibonacci-sequence
-
-let sum = 0;
-let fibonacci = [0, 1] // used stackoverflow
-
-for (let i = 2; i < 50; i++) {
-  fibonacci[i] = (fibonacci[i - 2] + fibonacci[i - 1]); // used stackoverflow
-  if (fibonacci[i] % 2 === 0) {
-    sum += fibonacci[i];
-    if (sum < 4000000) {
-      console.log(sum);
-    }
-  }
-}
