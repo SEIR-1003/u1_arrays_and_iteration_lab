@@ -32,7 +32,7 @@
 // firstVariable = 2;
 // let secondVariable = firstVariable;
 // secondVariable = "this is a string";
-// console.log(firstVariable);
+// console.log(firstVariable); // 2
 // let yourName = "Jason Bundy";
 // console.log(`Hello, my name is ${yourName}`);
 
